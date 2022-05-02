@@ -51,7 +51,7 @@ a1 {
 
 #special-links a {
   position: relative;
-  color: #2c98f0;;
+  color: #2c98f0;
   outline: none;
   text-decoration: none;
 }
@@ -314,7 +314,7 @@ figure {
 
 #colorlib-hero {
   min-height: 500px;
-  background: rgb(177, 38, 38) url(../images/loader.gif) no-repeat center center;
+  background: rgb(250, 250, 250) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 0em;
