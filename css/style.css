@@ -29,15 +29,13 @@ body {
 
 a {
   color: #000000;
-  outline: none;
-  text-decoration: none; 
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  a:hover{
-    color: #2c98f0;
+  a:hover, a:active, a:focus {
+    color: #000000;
     outline: none;
-    text-decoration: none; }
+    text-decoration: none !important; }
 
 a1 {
   color: #000000;
