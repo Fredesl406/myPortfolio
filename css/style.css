@@ -143,7 +143,7 @@ figure {
 }
 
 #colorlib-aside::-webkit-scrollbar{
-  visibility: hidden;
+  width: 0;
 }
 
 #colorlib-aside {
