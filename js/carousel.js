@@ -11,23 +11,23 @@ indicators.forEach((indicator, i) => {
   indicator.addEventListener('click', () => {
     document.querySelector('.control .selected').classList.remove('selected');
     indicator.classList.add('selected');
-    slider.style.transform = 'translateX(' + (i) * -25 + '%)';  
+    slider.style.transform = 'translateX(' + (i) * -10 + '%)'; // change based on number of slides (100/n)
     index = i;
   });
 });
 
 left.addEventListener('click', function() {
-  index = (index > 0) ? index -1 : 3;
+  index = (index > 0) ? index -1 : 9; // change based on number of slides (n-1)
   document.querySelector('.control .selected').classList.remove('selected');
   indicatorParent.children[index].classList.add('selected');
-  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+  slider.style.transform = 'translateX(' + (index) * -10 + '%)'; // change based on number of slides (100/n)
 });
 
 right.addEventListener('click', function() {
-  index = (index < 3) ? index+1 : 0;
+  index = (index < 9) ? index+1 : 0; // change based on number of slides (n-1)
   document.querySelector('.control .selected').classList.remove('selected');
   indicatorParent.children[index].classList.add('selected');
-  slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+  slider.style.transform = 'translateX(' + (index) * -10 + '%)'; // change based on number of slides (100/n)
 });
 
 // 	const left = document.querySelector('.left');

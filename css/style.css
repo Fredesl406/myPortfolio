@@ -1573,7 +1573,7 @@ body.offcanvas {
 }
 .slider {
   display: flex;
-  width: 400%;
+  width: 1000%; /*change based on # of slides*/
   transition: all 2s;
   transition-delay: 0s;
   flex-shrink: 0;
@@ -1582,7 +1582,6 @@ img{
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  background-size: cover;  
 }
 .slider section {
   flex-basis: 20%;
