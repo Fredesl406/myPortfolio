@@ -1632,7 +1632,7 @@ img{
   background: transparent;
   border: 2px solid #2c98f0;
   border-radius: 50%;
-  margin: 20px;
+  margin: 20px 10px;
   cursor: pointer;
 }
 .control ul li.selected {
@@ -1710,9 +1710,6 @@ date{
     font-size: 36px;
     top: 29px;
   }
-  #project-page .download{
-    font-size: 10px;
-  }
   #project-page hr{
     border: 1.5px solid #2c98f0;
     margin-top: 4px; 
@@ -1725,9 +1722,6 @@ date{
   }
   #project-page .arrow i{
     font-size: 56px;
-  }
-  date{
-    font-size: 12px;
   }
 }
 
@@ -1742,9 +1736,6 @@ date{
     top: 38px;
     left: -70px;
   }
-  #project-page .download{
-    font-size: 8px;
-  }
   #project-page hr{
     border: 1.5px solid #2c98f0;
     margin-top: 3.2px; 
@@ -1754,12 +1745,10 @@ date{
     width: 9.6px;
     height: 9.6px;
     border: 1.28px solid #2c98f0;
+    margin: 10px 10px;
   }
   #project-page .arrow i{
     font-size: 45px;
-  }
-  date{
-    font-size: 9.6px;
   }
 }
 
@@ -1775,7 +1764,7 @@ date{
     left: -55px;
   }
   #project-page .download{
-    font-size: 6.4px;
+    font-size: 10px;
   }
   #project-page hr{
     border: 1px solid #2c98f0;
@@ -1786,12 +1775,13 @@ date{
     width: 7.7px;
     height: 7.7px;
     border: 1.02px solid #2c98f0;
+    margin: 10px 5px;
   }
   #project-page .arrow i{
     font-size: 36px;
   }
   date{
-    font-size: 7.7px;
+    font-size: 12px;
   }
 }
   
@@ -1833,6 +1823,8 @@ br2 {
 }
 .button-container {
   height: 50px;
+  width: 100%;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
