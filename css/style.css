@@ -1736,6 +1736,9 @@ date{
     top: 38px;
     left: -70px;
   }
+  #project-page .download{
+    font-size: 10px;
+  }
   #project-page hr{
     border: 1.5px solid #2c98f0;
     margin-top: 3.2px; 
@@ -1764,7 +1767,7 @@ date{
     left: -55px;
   }
   #project-page .download{
-    font-size: 10px;
+    font-size: 8px;
   }
   #project-page hr{
     border: 1px solid #2c98f0;
