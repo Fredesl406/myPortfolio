@@ -1632,7 +1632,7 @@ img{
   background: transparent;
   border: 2px solid #2c98f0;
   border-radius: 50%;
-  margin: 20px 10px;
+  margin: 20px 5px;
   cursor: pointer;
 }
 .control ul li.selected {
@@ -1659,6 +1659,16 @@ img{
 .home i:hover{
   background-color: rgb(236, 233, 237);
   transition: 1s;
+}
+
+#noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 /* Project page *******************************************/
 date{
@@ -1748,7 +1758,7 @@ date{
     width: 9.6px;
     height: 9.6px;
     border: 1.28px solid #2c98f0;
-    margin: 10px 10px;
+    margin: 10px 5px;
   }
   #project-page .arrow i{
     font-size: 45px;
@@ -1778,7 +1788,7 @@ date{
     width: 7.7px;
     height: 7.7px;
     border: 1.02px solid #2c98f0;
-    margin: 10px 5px;
+    margin: 10px 2.5px;
   }
   #project-page .arrow i{
     font-size: 36px;
