@@ -1563,6 +1563,7 @@ body.offcanvas {
   margin-top: 5px;
 }
 .carousel {
+  height: 620px;
   overflow: hidden;
   position: relative;
   border-radius: 10px;
