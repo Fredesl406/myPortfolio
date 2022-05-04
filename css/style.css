@@ -1567,7 +1567,6 @@ body.offcanvas {
   position: relative;
   border-radius: 10px;
   background: white;
-  border: 0px solid rgb(128, 178, 237);
   display: flex;
   justify-content: flex-start;
   margin: auto;
@@ -1632,7 +1631,7 @@ img{
   height: 15px;
   background: transparent;
   border: 2px solid #2c98f0;
-  border-radius: 50px;
+  border-radius: 50%;
   margin: 20px;
   cursor: pointer;
 }
@@ -1650,8 +1649,8 @@ img{
   color: #000;
   cursor: pointer;
   position: absolute;
-  margin-top: 25px;
-  margin-left: -92px;
+  top: 22px;
+  left: -92px;
   padding: 10px;
   border-radius: 50%;
   z-index: 5;
@@ -1662,6 +1661,140 @@ img{
   transition: 1s;
 }
 /* Project page *******************************************/
+date{
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#project-page h1{
+  font-size: 45px;
+  margin-bottom: 5px;
+  padding-top: 30px;
+}
+
+#project-page hr{
+  border: 2px solid #2c98f0; 
+  margin-left: 0px; 
+  margin-top: 5px; 
+  margin-bottom: 15px;
+  width: 0%;
+  margin-left: 50%;
+  visibility: hidden;
+  animation: separator-width 1s ease-in-out 0.75s forwards;
+}
+@keyframes separator-width{
+  0%{
+    width: 0%;
+    visibility: hidden;
+    margin-left: 50%;
+  }
+  100%{
+    width: calc(100% - 4px);
+    visibility: visible;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  #project-page h1{
+    font-size: 36px;
+    margin-bottom: 4px;
+    padding-top: 37.5px;
+  }
+  #project-page .home i{
+    font-size: 36px;
+    top: 29px;
+  }
+  #project-page .download{
+    font-size: 10px;
+  }
+  #project-page hr{
+    border: 1.5px solid #2c98f0;
+    margin-top: 4px; 
+    margin-bottom: 12px;
+  }
+  #project-page .control ul li{
+    width: 12px;
+    height: 12px;
+    border: 1.6px solid #2c98f0;
+  }
+  #project-page .arrow i{
+    font-size: 56px;
+  }
+  date{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #project-page h1{
+    font-size: 29px;
+    margin-bottom: 3.2px;
+    padding-top: 47px;
+  }
+  #project-page .home i{
+    font-size: 29px;
+    top: 38px;
+    left: -70px;
+  }
+  #project-page .download{
+    font-size: 8px;
+  }
+  #project-page hr{
+    border: 1.5px solid #2c98f0;
+    margin-top: 3.2px; 
+    margin-bottom: 9.6px;
+  }
+  #project-page .control ul li{
+    width: 9.6px;
+    height: 9.6px;
+    border: 1.28px solid #2c98f0;
+  }
+  #project-page .arrow i{
+    font-size: 45px;
+  }
+  date{
+    font-size: 9.6px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  #project-page h1{
+    font-size: 23.2px;
+    margin-bottom: 2.5px;
+    padding-top: 59px;
+  }
+  #project-page .home i{
+    font-size: 23.2px;
+    top: 51px;
+    left: -55px;
+  }
+  #project-page .download{
+    font-size: 6.4px;
+  }
+  #project-page hr{
+    border: 1px solid #2c98f0;
+    margin-top: 2.5px; 
+    margin-bottom: 7.7px;
+  }
+  #project-page .control ul li{
+    width: 7.7px;
+    height: 7.7px;
+    border: 1.02px solid #2c98f0;
+  }
+  #project-page .arrow i{
+    font-size: 36px;
+  }
+  date{
+    font-size: 7.7px;
+  }
+}
+  
 .description{
   width: 100%;
   margin: auto;
