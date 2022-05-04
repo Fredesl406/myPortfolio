@@ -1563,7 +1563,6 @@ body.offcanvas {
   margin-top: 5px;
 }
 .carousel {
-  height: 620px;
   overflow: hidden;
   position: relative;
   border-radius: 10px;
@@ -1583,6 +1582,7 @@ img{
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+  background-size: cover;  
 }
 .slider section {
   flex-basis: 20%;
