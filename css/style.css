@@ -1728,7 +1728,6 @@ date{
     top: 29px;
   }
   #project-page hr{
-    border: 1.5px solid #2c98f0;
     margin-top: 4px; 
     margin-bottom: 12px;
   }
@@ -1757,7 +1756,7 @@ date{
     font-size: 10px;
   }
   #project-page hr{
-    border: 1.5px solid #2c98f0;
+    border: 1px solid #2c98f0;
     margin-top: 3.2px; 
     margin-bottom: 9.6px;
   }
@@ -1787,7 +1786,6 @@ date{
     font-size: 7px;
   }
   #project-page hr{
-    border: 1px solid #2c98f0;
     margin-top: 2.5px; 
     margin-bottom: 7.7px;
   }
