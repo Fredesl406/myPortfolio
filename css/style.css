@@ -1643,6 +1643,13 @@ img{
   background: #2c98f0;
   transition: 1s;
 }
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
 /* Home Button *******************************************/
 .home i{
   font-size: 45px;
@@ -1735,7 +1742,7 @@ date{
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
   #project-page h1{
     font-size: 29px;
     margin-bottom: 3.2px;
@@ -1787,7 +1794,6 @@ date{
   #project-page .control ul li{
     width: 7.7px;
     height: 7.7px;
-    border: 1.02px solid #2c98f0;
     margin: 10px 2.5px;
   }
   #project-page .arrow i{
